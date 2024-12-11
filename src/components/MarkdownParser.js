@@ -18,7 +18,7 @@ const MarkdownParser = () => {
     const plainText = extractPlainText(text); // 텍스트 추출 함수 사용
     return `<${tag} style="cursor: pointer;" data-copy="${plainText}">
               ${plainText}
-            </${tag}>`;
+            </${tag}>`;  
   };
 
   // blockquote 클릭 시 복사 기능 추가
